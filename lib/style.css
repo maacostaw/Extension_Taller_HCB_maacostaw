@@ -1,0 +1,135 @@
+body, html {
+	margin:0%;
+	font-size: 25px;
+}
+
+section{
+	display: block;
+}
+
+#superior-image{
+	background-image: url(https://cdn.oneesports.gg/wp-content/uploads/2020/07/LoL_SpiritBlossomKindred-1024x603.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 345px;
+}
+
+#superior-data{
+	font-size: 100px;
+	min-width: 400px;
+}
+
+#superior-data div{
+	min-height: 115px;
+	line-height: 115px;
+	color:rgb(255,255,255);
+	font-size: 50px;
+}
+
+#superior-data div:nth-child(1) div:nth-child(1){
+	background-color: rgb(30, 23, 35, 0.9);
+}
+
+#superior-data div:nth-child(1) div:nth-child(2){
+	background-color: rgb(30, 23, 35, 0.95);
+}
+
+#superior-data div:nth-child(2) div:nth-child(1){
+	background-color: rgb(30, 23, 35, 0.95);
+}
+
+#superior-data div:nth-child(2) div:nth-child(2){
+	background-color: rgb(30, 23, 35, 1);
+}
+
+#superior-data div:nth-child(3) div:nth-child(1n){
+	background-color: rgb(84,91,143,1);
+}
+
+#superior-data div:nth-child(3) div:nth-child(2n){
+	background-color: rgb(127,128,162,1);
+}
+
+.emoji p{
+	font-size: 80px;
+	margin:0;
+	text-align: center;
+	color:transparent;
+	text-shadow: 0 0 0 rgba(255,255,255,1);
+}
+
+.emoji:nth-child(2) p, .emoji:nth-child(4) p, .emoji:nth-child(5) p{
+	font-size: 50px;
+}
+
+#medium{
+	background-color: rgb(255,255,255,1);
+}
+
+#medium-data .col-xs-1{
+	text-align: center;
+}
+
+#medium-data .col-xs-3 p{
+	text-align: justify;
+}
+
+#medium-data{
+	
+}
+
+#medium-info{
+	background-color: rgb(205,236,244,0.5);
+	line-height: 60px;
+}
+
+#bottom{
+	background-color: rgb(127, 128, 162);
+
+}
+
+#bottom-percentages{
+	background-color: rgb(144, 145, 192);
+}
+
+#bottom-data{
+	
+}
+
+.no-bootstrap{
+	padding-right:0;
+	padding-left: 0;
+	min-height: unset;
+	position:unset;
+}
+
+a,a:hover, a:visited, a:active{
+	color:rgba(212, 188, 156,1);
+	text-decoration: none;
+}
+
+a:hover{
+	color:rgba(212, 188, 156,0.5);
+}
+
+.box{
+	text-align: center;
+}
+
+.box .percent svg{
+	width:150px;
+}
+
+.box .percent svg circle{
+	width:150px;
+	fill:none;
+	stroke-width:10;
+	stroke: rgba(0,0,0,1);
+	transform:translate(5px,5px);
+}
+
+.box .percent .number{
+	position: relative;
+    top: -120px;
+}
